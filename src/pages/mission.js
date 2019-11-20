@@ -23,7 +23,7 @@ const SecondPage = () => (
 
       <p>Too much food is wasted and never reaches those in our community who are food insecure and in desperate need of nutritious options.  This wasted food should be preserved in a safe and efficient manner and repurposed to those who are in need.  By freezing this prepared unserved food, it can be delivered to food pantries and shelters to increase their available servings and/or decrease their operating costs by diverting the cost of food purchases.
       </p>
-      <Link style={{marginTop: `1rem`, width: `160px`, marginRight: `auto`, marginLeft: `auto`, display: `block`, textDecoration: `none`, textAlign: `center`, padding:`.6rem`}} className={`button`} to="/page-2/">DONATE NOW</Link>
+      <Link style={{marginTop: `1rem`, width: `160px`, marginRight: `auto`, marginLeft: `auto`, display: `block`, textDecoration: `none`, textAlign: `center`, padding:`.6rem`, color:`black`}} className={`button`} to="/page-2/">DONATE NOW</Link>
     </div>
     </div>
   </Layout>

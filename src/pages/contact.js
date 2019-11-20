@@ -25,7 +25,7 @@ const SecondPage = () => (
 </p>
   <button
   style={{
-    color: `white`,
+    color: `black`,
     background: `#e0b426`,
     padding: `8px`,
     borderRadius: `3px`,

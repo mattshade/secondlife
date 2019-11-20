@@ -17,7 +17,7 @@ const SecondPage = () => (
       </p>
 
 
-      <Link style={{marginTop: `1rem`, width: `160px`, marginRight: `auto`, marginLeft: `auto`, display: `block`, textDecoration: `none`, textAlign: `center`}} className={`button`} to="/page-2/">DONATE NOW</Link>
+      <Link style={{marginTop: `1rem`, width: `160px`, marginRight: `auto`, marginLeft: `auto`, display: `block`, textDecoration: `none`, textAlign: `center`, color:`black`}} className={`button`} to="/page-2/">DONATE NOW</Link>
     </div>
     </div>
   </Layout>

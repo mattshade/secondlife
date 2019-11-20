@@ -15,7 +15,7 @@ const IndexPage = () => (
 
     <div style={{zIndex: `1`, maxWidth:`300px`, marginBottom: `1.45rem`, marginTop: `7rem`, marginLeft: `auto`, marginRight: `auto`, textAlign: `center` }}>
       <Image alt="SecondLife Harvest" filename="secondlife-large.png" />
-      <Link style={{marginTop: `1rem`, width: `160px`, marginRight: `auto`, marginLeft: `auto`, display: `block`, textDecoration: `none`, padding:`.6rem`}} className={`button`} to="/donate/">DONATE NOW</Link>
+      <Link style={{marginTop: `1rem`, width: `160px`, marginRight: `auto`, marginLeft: `auto`, display: `block`, textDecoration: `none`, padding:`.6rem`,  color:`black`}} className={`button`} to="/donate/">DONATE NOW</Link>
     </div>
     </div>
 

@@ -22,7 +22,7 @@ paddingTop: '30px',
   Thanks! I'll be in touch soon.
 </p>
 <p className="thanksMessage">
-  <a href="/">Let's get out of here!</a>
+  <a style={{color:`white`, textDecoration:`none`}} href="/">Let's get out of here!</a>
 </p>
 </div>
     </div>
