@@ -178,11 +178,18 @@ textarea {
 }
 ::-webkit-input-placeholder {
   color: inherit;
-  opacity: 0.54;
+  opacity: 1;
 }
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   font: inherit;
+}
+input, textarea {
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    background: black;
+    color: white !important;
 }
 html {
   font: 112.5%/1.45em 'Droid Sans', serif;

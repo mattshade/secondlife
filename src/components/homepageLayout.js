@@ -10,6 +10,7 @@
  import { useStaticQuery, graphql } from "gatsby"
 
  import Header from "./header"
+ import { Link } from "gatsby"
  import "./layout.css"
 
  const Layout = ({ children }) => {
@@ -41,8 +42,9 @@
         }}
       >
         <main>{children}</main>
-        <footer style={{zIndex:`3`, position:`fixed`, bottom:`0px`, left:`15px`, fontSize:`12px`}}>
+        <footer style={{zIndex:`3`, position:`fixed`, bottom:`0px`, left:`0px`, fontSize:`12px`, paddingLeft:`15px`, width:`100%`, background:`black`, paddingTop:`1px`}}>
           &copy; SecondLife Harvest, LLC {new Date().getFullYear()}
+          <Link style={{padding:`0px`, width: `100px`, textAlign:`center`, display: `block`, textDecoration: `none`, float:`right`, color:`black`, borderRadius:`0px`}} className={`button`} to="/donate/">DONATE NOW</Link>
         </footer>
       </div>
     </>

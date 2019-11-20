@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import Image from "../components/image"
 const Header = ({ siteTitle, menuLinks }) => (
+
   <header
     style={{
       background: "black",
@@ -43,7 +44,7 @@ const Header = ({ siteTitle, menuLinks }) => (
         </h1>
         <div>
           <nav>
-            <ul style={{ display: "flex", flex: 1, margin: `0px` }}>
+            <ul className="nav" style={{ display: "flex", flex: 1, margin: `0px` }}>
               {menuLinks.map(link => (
                 <li
                   key={link.name}

@@ -10,12 +10,16 @@ by eliminating food waste derived from prepared un-served meals.`,
          link:'/donate'
       },
       {
-         name:'about',
-         link:'/about'
+         name:'our mission',
+         link:'/mission'
       },
       {
          name:'contact',
          link:'/contact'
+      },
+      {
+         name:'about',
+         link:'/about'
       }
       ],
   },

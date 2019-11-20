@@ -94,4 +94,6 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
 
+## 💫 Deploy  Status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f1ee87f1-96be-4eac-b65a-eb6cac84a25c/deploy-status)](https://app.netlify.com/sites/secondlifeharvest/deploys)
 <!-- AUTO-GENERATED-CONTENT:END -->

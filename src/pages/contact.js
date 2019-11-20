@@ -11,7 +11,7 @@ const SecondPage = () => (
     <SEO title="Contact SecondLife Harvest" />
     <div className={`indexWrapper`} style={{ backgroundImage: `url(${background})`, top:`0`, left: `0`, zIndex: `0`, width: `100%`, height:`100%`, backgroundPosition: `center center`, backgroundRepeat: `no-repeat`, backgroundAttachment: `local`, backgroundSize: `cover`, position: `fixed`  }}>
 
-    <div style={{zIndex: `1`, maxWidth:`600px`, marginBottom: `1.45rem`, marginTop: `7rem`, marginLeft: `auto`, marginRight: `auto`, textAlign: `center`}}>
+    <div style={{zIndex: `1`, maxWidth:`600px`, width:`80%`, marginBottom: `1.45rem`, marginTop: `7rem`, marginLeft: `auto`, marginRight: `auto`, textAlign: `center`}}>
     <form name="contact" method="POST" action="/success/" data-netlify="true">
 <input type="hidden" name="form-name" value="contact" />
 <p>
@@ -38,8 +38,7 @@ const SecondPage = () => (
   type="submit">submit</button>
 
 </form>
-or
-<Link style={{marginTop: `1rem`, width: `160px`, marginRight: `auto`, marginLeft: `auto`, display: `block`, textDecoration: `none`}} className={`button`} to="/donate/">DONATE NOW</Link>
+
 
     </div>
     </div>
