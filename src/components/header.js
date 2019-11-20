@@ -50,7 +50,7 @@ const Header = ({ siteTitle, menuLinks }) => (
                   key={link.name}
                   style={{
                     listStyleType: `none`,
-                    padding: `.4rem`,
+                    padding: `.5rem`,
                     margin: `0rem`,
                     textTransform: `uppercase`,
                     fontWeight: `bold`,
