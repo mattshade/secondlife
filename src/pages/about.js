@@ -87,7 +87,7 @@ const SecondPage = () => (
         <strong>BOARD MEMBER</strong>
       </small>
       <h2>Kara Grasso</h2>
-      <h4>Sr. Vice President, Secretary</h4>
+      <h4>Sr. Vice President, Clerk</h4>
       <p>
       Kara's bio is in progress!
       </p>
