@@ -19,7 +19,7 @@ fontSize: '26px',
 paddingTop: '30px',
 }}>
 <p className="thanksMessage">
-  Thanks! I'll be in touch soon.
+  Thanks! We'll be in touch soon.
 </p>
 <p className="thanksMessage">
   <a style={{color:`white`, textDecoration:`none`}} href="/">Let's get out of here!</a>

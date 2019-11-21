@@ -253,7 +253,7 @@ h2 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: .5rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -629,7 +629,7 @@ pre tt:after {
   padding: 8px;
   border-radius: 3px;
 }
-a[data-name="donate"] {
+.active {
   color: #e0b426!important;
 }
 @media only screen and (max-width: 480px) {

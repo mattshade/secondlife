@@ -57,7 +57,7 @@ const Header = ({ siteTitle, menuLinks }) => (
                     fontSize: `13px`,
                   }}
                 >
-                  <Link style={{ color: `white`, textDecoration: `none`, }} to={link.link} data-name={link.name}>
+                  <Link style={{ color: `white`, textDecoration: `none`, }} to={link.link} data-name={link.name} activeClassName="active">
 
                   {link.name}
                   </Link>
