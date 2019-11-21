@@ -9,9 +9,9 @@ import background from "../images/kids-eating.jpg"
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
-    <div className={`indexWrapper`} style={{ backgroundImage: `url(${background})`, top:`0`, left: `0`, zIndex: `0`, width: `100%`, height:`100%`, backgroundPosition: `center center`, backgroundRepeat: `no-repeat`, backgroundAttachment: `local`, backgroundSize: `cover`, position: `fixed`, overflowY:`scroll`}}>
+    <div className={`indexWrapper`} style={{ backgroundImage: `url(${background})`, top:`0`, left: `0`, zIndex: `0`, width: `100%`, height:`100%`, backgroundPosition: `center center`, backgroundRepeat: `no-repeat`, backgroundAttachment: `local`, backgroundSize: `cover`, position: `fixed`, }}>
 
-    <div style={{zIndex: `1`, maxWidth:`700px`, marginBottom: `1.45rem`, marginTop: `4rem`, marginLeft: `auto`, marginRight: `auto`, padding: `20px`, background:`rgba(0,0,0,.35)`, borderRadius: `3px` }}>
+    <div style={{zIndex: `1`, maxWidth:`700px`, marginBottom: `1.45rem`, marginTop: `4rem`, marginLeft: `auto`, marginRight: `auto`, padding: `20px`, background:`rgba(0,0,0,.35)`, borderRadius: `3px`, overflowY:`scroll`, position:`relative`,  height:`100%` }}>
       <small style={{fontSize: `11px`}}>
         <strong>BOARD MEMBER</strong>
       </small>
