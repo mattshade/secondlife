@@ -24,7 +24,6 @@ by eliminating food waste derived from prepared un-served meals.`,
       }
       ],
   },
-  plugins: [`gatsby-plugin-sitemap`],
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -65,6 +64,7 @@ by eliminating food waste derived from prepared un-served meals.`,
       },
     },
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App  Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
