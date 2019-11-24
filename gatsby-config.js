@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://www.secondlifeharvest.org`,
     title: `SecondLife Harvest`,
     description: `SecondLife Harvest, Inc. is a public charity aimed at eradicating Food Insecurity
 by eliminating food waste derived from prepared un-served meals.`,
@@ -23,6 +24,7 @@ by eliminating food waste derived from prepared un-served meals.`,
       }
       ],
   },
+  plugins: [`gatsby-plugin-sitemap`],
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
