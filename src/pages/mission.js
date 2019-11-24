@@ -8,7 +8,7 @@ import background from "../images/table-bg.jpg"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Our Mission" description="SecondLife Harvest, Inc. is a public charity aimed at eradicating Food Insecurity by eliminating food waste derived from prepared un-served meals. Learn more about our mission."/>
     <div className={`indexWrapper`} style={{ backgroundImage: `url(${background})`, top:`0`, left: `0`, zIndex: `0`, width: `100%`, height:`100%`, backgroundPosition: `center center`, backgroundRepeat: `no-repeat`, backgroundAttachment: `local`, backgroundSize: `cover`, position: `fixed`, overflowY:`scroll`}}>
 
     <div style={{zIndex: `1`, maxWidth:`600px`, marginBottom: `1.45rem`, marginTop: `7rem`, marginLeft: `auto`, marginRight: `auto`, padding: `20px` }}>

@@ -9,7 +9,7 @@ import background from "../images/kids-home.jpg"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="SecondLife Harvest" description="SecondLife Harvest, Inc. is a public charity aimed at eradicating Food Insecurity by eliminating food waste derived from prepared un-served meals." />
 
     <div className={`indexWrapper`} style={{ backgroundImage: `url(${background})`, top:`0`, left: `0`, zIndex: `0`, width: `100%`, height:`100%`, backgroundPosition: `center center`, backgroundRepeat: `no-repeat`, backgroundAttachment: `local`, backgroundSize: `cover`, position: `fixed`  }}>
 
