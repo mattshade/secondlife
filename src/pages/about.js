@@ -42,6 +42,9 @@ const SecondPage = () => (
         <li>2002-Present, Board of Trustees </li>
         <li>2010-Present, Executive Committee </li>
         <li>2010-Present, Chairman, Governance Committee Chamber of Commerce, Massachusetts</li>
+      </ul>
+      <h5>Franklin Chamber of Commerce</h5>
+      <ul>
         <li>1990-2008, Board of Directors</li>
         <li>2002-2004, Chairman of the Board</li>
         <li>1999- Business Person of the Year Strata Bank, Franklin, MA</li>
@@ -89,7 +92,10 @@ const SecondPage = () => (
       <h2>Kara Grasso</h2>
       <h4>Sr. Vice President, Clerk</h4>
       <p>
-      Kara's bio is in progress!
+      Kara is the President of Patient Rights Advocate, a 501(c)(3) organization advocating on behalf of patients, their families, and caregivers to receive real-time, free access to their data and real price transparency prior to service.
+      </p>
+      <p>
+      With an extensive background of working on projects within the health care realm, she has a garnered passion for patient advocacy. She was a Sales Representative for TAP Pharmaceuticals, a joint venture between Abbott Laboratories and Takeda Pharmaceutical Company. She also formerly served as a Hematology Oncology Consultant for Celgene Corporation. Kara began her career as patient services representative for ViaCord, Inc and also worked as a physical therapy aide in a major hospital system. Kara holds a BA from Boston College.
       </p>
 
       <hr style={{	borderTop: `2px dashed #8c8b8b`,  opacity:`.35`}} />
