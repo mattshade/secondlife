@@ -10,7 +10,8 @@ const SecondPage = () => (
     <SEO title="About Us" description="SecondLife Harvest, Inc. is a public charity aimed at eradicating Food Insecurity by eliminating food waste derived from prepared un-served meals. Learn more about us." />
     <div className={`indexWrapper`} style={{ backgroundImage: `url(${background})`, top:`0`, left: `0`, zIndex: `0`, width: `100%`, height:`100%`, backgroundPosition: `center center`, backgroundRepeat: `no-repeat`, backgroundAttachment: `local`, backgroundSize: `cover`, position: `fixed`, }}>
 
-    <div style={{zIndex: `1`, maxWidth:`700px`, marginBottom: `1.45rem`, marginTop: `4rem`, marginLeft: `auto`, marginRight: `auto`, padding: `20px`, background:`rgba(0,0,0,.35)`, borderRadius: `3px`, overflowY:`scroll`, position:`relative`,  height:`100%` }}>
+    <div style={{zIndex: `1`, width:`100%`, marginBottom: `1.45rem`, marginTop: `4rem`, marginLeft: `auto`, marginRight: `auto`, padding: `20px`, background:`rgba(0,0,0,.35)`, borderRadius: `3px`, overflowY:`scroll`, position:`relative`,  height:`100%` }}>
+      <div style={{maxWidth:`700px`, margin: `0 auto`, paddingBottom: `150px`}}>
       <small style={{fontSize: `11px`}}>
         <strong>BOARD MEMBER</strong>
       </small>
@@ -58,7 +59,7 @@ const SecondPage = () => (
       <h2>Lawrence Verney</h2>
       <h4>Sr. Vice President, COO</h4>
       <p>
-      A results-driven senior technology executive with over 30 years Information Technology expertise and a track record of leading highly technical teams to provide practical, leading-edge technical solutions.  Unique problem solving skills with an expertise in areas of IT Strategy, IT Architecture, IT Transformation, Cost Management, Infrastructure Optimization, process efficiency and logistics.  Prestigiously elected one of 18 IT Fellows (out of 15,000 IT) within a large Boston area financial services company. Twice awarded the President’s Leadership Award for demonstrating exemplary leadership qualities in the creation of a high-performance work environment in the exploitation of emerging technologies and creating a role model for employees.  Volunteer and contributor at the Franklin Food Pantry which services the needy in the Franklin Massachusetts area.
+      A results-driven senior technology executive with over 30 years Information Technology expertise and a track record of leading highly technical teams to provide practical, leading-edge technical solutions.  Unique problem solving skills with an expertise in areas of IT Strategy, IT Architecture, IT Transformation, Cost Management, Infrastructure Optimization, process efficiency and logistics.  Prestigiously elected one of 18 IT Fellows (out of 15,000 IT) within a large Boston area financial services company. Twice awarded the President’s Leadership Award for demonstrating exemplary leadership qualities in the creation of a high-performance work environment in the exploitation of emerging technologies and creating a role model for employees.  Proud supporter of the Franklin Food Pantry which services the needy in the Franklin Massachusetts area.
       </p>
 
       <hr style={{	borderTop: `2px dashed #8c8b8b`,  opacity:`.35`}} />
@@ -100,6 +101,7 @@ const SecondPage = () => (
       <hr style={{	borderTop: `2px dashed #8c8b8b`,  opacity:`.35`}} />
 
       <Link style={{marginTop: `1rem`, width: `160px`, marginRight: `auto`, marginLeft: `auto`, display: `block`, textDecoration: `none`, textAlign: `center`, color:`black`}} className={`button`} to="/donate">DONATE NOW</Link>
+      </div>
     </div>
     </div>
   </Layout>
