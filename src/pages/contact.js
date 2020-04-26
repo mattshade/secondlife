@@ -13,13 +13,13 @@ const SecondPage = () => (
     <form name="contact" method="POST" action="/success/" data-netlify="true">
 <input type="hidden" name="form-name" value="contact" />
 <p>
-  <input style={{width:`100%`}} placeholder="Your Name" type="text" name="name" />
+  <input style={{width:`100%`, padding: `10px`}} placeholder="Your Name" type="text" name="name" />
 </p>
 <p>
-  <input style={{width:`100%`}} placeholder="Email" type="email" name="email" />
+  <input style={{width:`100%`, padding: `10px`}} placeholder="Email" type="email" name="email" />
 </p>
 <p>
-  <textarea style={{width:`100%`}} placeholder="Add Your Message Here" name="message" rows="6"></textarea>
+  <textarea style={{width:`100%`, padding: `10px`}} placeholder="Add Your Message Here" name="message" rows="6"></textarea>
 </p>
   <button
   style={{

@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -99,8 +98,14 @@ const SecondPage = () => (
       </p>
 
       <hr style={{	borderTop: `2px dashed #8c8b8b`,  opacity:`.35`}} />
-
-      <Link style={{marginTop: `1rem`, width: `160px`, marginRight: `auto`, marginLeft: `auto`, display: `block`, textDecoration: `none`, textAlign: `center`, color:`black`}} className={`button`} to="/donate">DONATE NOW</Link>
+      <div style={{margin: `0 auto`, maxWidth: `160px`}}>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick" />
+          <input type="hidden" name="hosted_button_id" value="MZGQXV9BD72NC" />
+          <input style={{padding: `0px`}} type="image" src="https://www.secondlifeharvest.org/static/799779d867a7af13636ffcdc5ed68a3d/d0486/donate-button.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+          <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+        </form>
+      </div>
       </div>
     </div>
     </div>

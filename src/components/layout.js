@@ -10,7 +10,6 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-import { Link } from "gatsby"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -41,7 +40,14 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer style={{zIndex:`3`, position:`fixed`, bottom:`0px`, left:`0px`, fontSize:`12px`, paddingLeft:`15px`, width:`100%`, background:`black`, paddingTop:`1px`}}>
           &copy; SecondLife Harvest Inc. {new Date().getFullYear()}
-          <Link style={{padding:`0px`, width: `100px`, textAlign:`center`, display: `block`, textDecoration: `none`, float:`right`, color:`black`, borderRadius:`0px`}} className={`button`} to="/donate/">DONATE NOW</Link>
+          <div style={{float:`right`}}>
+          <form style={{marginBottom: `0px`, height: `27px`}} action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick" />
+          <input type="hidden" name="hosted_button_id" value="MZGQXV9BD72NC" />
+          <input style={{padding: `0px`}} type="image" src="https://www.secondlifeharvest.org/static/799779d867a7af13636ffcdc5ed68a3d/d0486/donate-button.png" width="90" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+          <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+        </form>
+          </div>
         </footer>
       </div>
     </>
