@@ -12,6 +12,7 @@ exports.components = {
   "component---src-pages-donate-js": hot(preferDefault(require("/Users/matthewshade/secondlife/src/pages/donate.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/matthewshade/secondlife/src/pages/index.js"))),
   "component---src-pages-mission-js": hot(preferDefault(require("/Users/matthewshade/secondlife/src/pages/mission.js"))),
-  "component---src-pages-success-js": hot(preferDefault(require("/Users/matthewshade/secondlife/src/pages/success.js")))
+  "component---src-pages-success-js": hot(preferDefault(require("/Users/matthewshade/secondlife/src/pages/success.js"))),
+  "component---src-pages-thank-you-js": hot(preferDefault(require("/Users/matthewshade/secondlife/src/pages/thank-you.js")))
 }
 
