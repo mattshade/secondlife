@@ -16,9 +16,10 @@ textAlign: 'center',
 fontSize: '26px',
 paddingTop: '30px',
 }}>
-<p className="thanksMessage">
-  Thank You! Your donation means a lot to us, and will be used to try to end the fight against food insecurity!
+<p  style={{fontSize: '36px',}} className="thanksMessage">
+Thank You!
 </p>
+<p>Your donation is very appreciated and is critical in the effort to end food insecurity!</p>
 </div>
     </div>
     </div>
